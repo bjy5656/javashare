@@ -1,5 +1,4 @@
 package print;
-
 //10번 : 서식문자의 옵션   printf()
 public class PrintTest03 {
    public static void main(String[] args) {
@@ -23,6 +22,10 @@ public class PrintTest03 {
       System.out.printf("%-5s\t\t%5d원", "꼬북칩", 2500);
       System.out.printf("\n%-5s\t\t%5d원", "누네띠네", 3000);
       System.out.printf("\n%-5s\t\t%5d원", "껌", 800);
+		
+      
+	      
+      
       
    }
 }
