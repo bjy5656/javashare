@@ -14,13 +14,13 @@ public class ArrayTask03 {
 		//입력메시지 출력(띄어쓰기로 구분하여 점수 3개 입력)  
 		//for문 시작 => 배열의 저장공간에 정수 입력받아 저장하기 
 		//	초기식 i=0, 조건식 i<배열길이, 증감식 i++ 
-		//	배열의 i번째 공간에 nextInt()로 정수 3개 입력받고 정수 하나씩 대입 
+		//	배열의 인덱스 i 공간에 nextInt()로 정수 3개 입력받고 정수 하나씩 대입 
 		//for문 종료 
 		//for문 시작 => 배열의 값 합계 구하기 
 		//	초기식 i=0, 조건식 i<배열길이, 증감식 i++ 
-		//	합계 변수에 합계 값과 배열 i번째 값 더하고 대입 
+		//	합계 변수에 합계 값과 배열 인덱스 i 값 더하고 대입 
 		//for문 종료 
-		//출력(합계 / 배열길이) 
+		//출력(double형 합계 / 배열길이) 
 		//sc.close();
 		
 		Scanner sc = new Scanner(System.in);
@@ -33,7 +33,8 @@ public class ArrayTask03 {
 		for ( int i = 0; i < ar.length; i++) {
 			sum += ar[i];
 		}
-		System.out.println("평균 점수는 : " + sum / ar.length);
+		System.out.printf("평균 점수는 : %.2f", (double)sum / ar.length);
+		sc.close();
 
 	}
 }
