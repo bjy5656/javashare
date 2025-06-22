@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 INDEX VERSION 1.134+C:\Users\qorwj\Desktop\취업및시험\국비\java\workspace\.metadata\.plugins\org.eclipse.jdt.core
 4151544267.index
 2311255414.index
@@ -7,3 +8,13 @@ INDEX VERSION 1.134+C:\Users\qorwj\Desktop\취업및시험\국비\java\workspace
 427682023.index
 504376574.index
 1865797976.index
+=======
+INDEX VERSION 1.134+C:\Users\qorwj\OneDrive\바탕 화면\취업및시험\국비\java\workspace\.metadata\.plugins\org.eclipse.jdt.core
+427682023.index
+2155133277.index
+4151544267.index
+1853544561.index
+1865797976.index
+504376574.index
+2311255414.index
+>>>>>>> c96366064ad6272c89524b46fdec7c860a652120

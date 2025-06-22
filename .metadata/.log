@@ -1544,7 +1544,11 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+<<<<<<< HEAD
 !SESSION 2025-06-20 22:29:51.441 -----------------------------------------------
+=======
+!SESSION 2025-06-21 15:43:05.659 -----------------------------------------------
+>>>>>>> c96366064ad6272c89524b46fdec7c860a652120
 eclipse.buildId=4.34.0.20241128-0756
 java.version=21.0.5
 java.vendor=Eclipse Adoptium
@@ -1552,6 +1556,7 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
 Framework arguments:  -product org.eclipse.epp.package.jee.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
 
+<<<<<<< HEAD
 !ENTRY ch.qos.logback.classic 1 0 2025-06-20 22:30:25.720
 !MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
 
@@ -1559,6 +1564,43 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.e
 !MESSAGE Logback config file: C:\Users\qorwj\Desktop\취업및시험\국비\java\workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
 
 !ENTRY org.eclipse.ui 4 4 2025-06-20 22:30:31.716
+=======
+!ENTRY ch.qos.logback.classic 1 0 2025-06-21 15:44:11.688
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-06-21 15:44:13.525
+!MESSAGE Logback config file: C:\Users\qorwj\OneDrive\바탕 화면\취업및시험\국비\java\workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 4 4 2025-06-21 15:44:14.300
+!MESSAGE Invalid workspace location to be set for Edge browser.
+!STACK 0
+java.net.URISyntaxException: Illegal character in path at index 32: file:/C:/Users/qorwj/OneDrive/바탕 화면/취업및시험/국비/java/workspace/.metadata/.plugins/org.eclipse.swt
+	at java.base/java.net.URI$Parser.fail(URI.java:2995)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3166)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3248)
+	at java.base/java.net.URI$Parser.parse(URI.java:3196)
+	at java.base/java.net.URI.<init>(URI.java:645)
+	at java.base/java.net.URL.toURI(URL.java:1220)
+	at org.eclipse.ui.internal.Workbench.setEdgeDataDirectory(Workbench.java:530)
+	at org.eclipse.ui.internal.Workbench.<init>(Workbench.java:461)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:598)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.ui 4 4 2025-06-21 15:44:21.013
+>>>>>>> c96366064ad6272c89524b46fdec7c860a652120
 !MESSAGE Unable to create part
 !STACK 1
 org.eclipse.ui.PartInitException: Cannot determine URI for '/day08/src/homework08/ArrayTask03.java'.
@@ -1697,7 +1739,11 @@ Caused by: org.eclipse.core.runtime.CoreException: Cannot determine URI for '/da
 	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2285)
 	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3188)
 	... 117 more
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.core.filebuffers 4 0 2025-06-20 22:30:31.717
+=======
+!SUBENTRY 1 org.eclipse.core.filebuffers 4 0 2025-06-21 15:44:21.013
+>>>>>>> c96366064ad6272c89524b46fdec7c860a652120
 !MESSAGE Cannot determine URI for '/day08/src/homework08/ArrayTask03.java'.
 !STACK 1
 org.eclipse.core.runtime.CoreException: Cannot determine URI for '/day08/src/homework08/ArrayTask03.java'.
@@ -1833,10 +1879,17 @@ org.eclipse.core.runtime.CoreException: Cannot determine URI for '/day08/src/hom
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+<<<<<<< HEAD
 !SUBENTRY 2 org.eclipse.core.filebuffers 4 0 2025-06-20 22:30:31.718
 !MESSAGE Cannot determine URI for '/day08/src/homework08/ArrayTask03.java'.
 
 !ENTRY org.eclipse.ui 4 4 2025-06-20 22:30:31.845
+=======
+!SUBENTRY 2 org.eclipse.core.filebuffers 4 0 2025-06-21 15:44:21.017
+!MESSAGE Cannot determine URI for '/day08/src/homework08/ArrayTask03.java'.
+
+!ENTRY org.eclipse.ui 4 4 2025-06-21 15:44:21.215
+>>>>>>> c96366064ad6272c89524b46fdec7c860a652120
 !MESSAGE Unable to create part
 !STACK 1
 org.eclipse.ui.PartInitException: Cannot determine URI for '/day07/src/review/Review.java'.
@@ -1940,7 +1993,11 @@ Caused by: org.eclipse.core.runtime.CoreException: Cannot determine URI for '/da
 	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2285)
 	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3188)
 	... 82 more
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.core.filebuffers 4 0 2025-06-20 22:30:31.845
+=======
+!SUBENTRY 1 org.eclipse.core.filebuffers 4 0 2025-06-21 15:44:21.215
+>>>>>>> c96366064ad6272c89524b46fdec7c860a652120
 !MESSAGE Cannot determine URI for '/day07/src/review/Review.java'.
 !STACK 1
 org.eclipse.core.runtime.CoreException: Cannot determine URI for '/day07/src/review/Review.java'.
@@ -2041,6 +2098,7 @@ org.eclipse.core.runtime.CoreException: Cannot determine URI for '/day07/src/rev
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+<<<<<<< HEAD
 !SUBENTRY 2 org.eclipse.core.filebuffers 4 0 2025-06-20 22:30:31.846
 !MESSAGE Cannot determine URI for '/day07/src/review/Review.java'.
 
@@ -2065,6 +2123,12 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.e
 !MESSAGE Logback config file: C:\Users\qorwj\Desktop\취업및시험\국비\java\workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
 
 !ENTRY org.eclipse.egit.ui 2 0 2025-06-23 00:12:58.987
+=======
+!SUBENTRY 2 org.eclipse.core.filebuffers 4 0 2025-06-21 15:44:21.216
+!MESSAGE Cannot determine URI for '/day07/src/review/Review.java'.
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-06-21 15:44:22.050
+>>>>>>> c96366064ad6272c89524b46fdec7c860a652120
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\qorwj'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and

@@ -7,8 +7,12 @@ eclipse.preferences.version=1
 org.eclipse.jdt.internal.ui.navigator.layout=2
 org.eclipse.jdt.internal.ui.navigator.librariesnode=true
 org.eclipse.jdt.ui.formatterprofiles.version=23
+<<<<<<< HEAD
 org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="true" context\="java-statements" deleted\="false" description\="printf()" enabled\="true" name\="sysf">System.out.printf(${word_selection}${});${cursor}</template></templates>
 sourceHoverBackgroundColor=255,255,225
+=======
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="true" context\="java-statements" deleted\="false" description\="print to standard out" enabled\="true" name\="sysf">System.out.printf(${word_selection}${});${cursor}</template></templates>
+>>>>>>> c96366064ad6272c89524b46fdec7c860a652120
 spelling_locale_initialized=true
 typefilter_migrated_2=true
 useAnnotationsPrefPage=true
