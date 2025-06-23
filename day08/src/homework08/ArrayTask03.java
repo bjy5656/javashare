@@ -33,8 +33,13 @@ public class ArrayTask03 {
 		for ( int i = 0; i < ar.length; i++) {
 			sum += ar[i];
 		}
-		System.out.printf("평균 점수는 : %.2f", (double)sum / ar.length);
+		System.out.printf("평균 점수는 : %f\n", (double)sum / ar.length);
+		
+		System.out.println((double)sum / ar.length);
 		sc.close();
 
+		
+		
+		
 	}
 }
